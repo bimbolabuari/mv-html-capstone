@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-decoration: none;
 }
 
@@ -85,7 +85,7 @@
 
 .program-list {
   margin-bottom: 10px;
-  height: 7em;
+  height: 9em;
   max-width: 500px;
   background: rgb(59, 62, 69);
 }
@@ -127,7 +127,7 @@
 }
 
 .featured-section {
-  color: #fff;
+  color: rgb(245, 245, 245);
   padding: 50px 24px;
 }
 
@@ -143,8 +143,8 @@
 }
 
 .featured-img {
-  width: 120px;
-  height: 120px;
+  width: 144px;
+  height: 183px;
 }
 
 .featured-list {
@@ -180,7 +180,7 @@
 }
 
 .partner-header {
-  color: #fff;
+  color: #aaa;
   text-transform: capitalize;
   text-align: center;
   font-size: 20px;
@@ -218,7 +218,7 @@
 
 .footer {
   color: #fff;
-  padding: 24px;
+  padding: 24px 10px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -226,16 +226,10 @@
 
 .first-footer,
 .second-footer {
-  width: 40%;
   color: #272a31;
 }
 
-.second-footer {
-  flex-direction: column;
-}
-
 .second-footer-list {
-  margin-bottom: 10px;
   font-size: 13px;
 }
 
@@ -247,8 +241,20 @@
   margin-bottom: 30px;
 }
 
+.about-paragraph-one {
+  background: rgb(250, 250, 250);
+  color: #272a31;
+  border: 1px solid #aaa;
+  margin-bottom: 30px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.copyright {
+  font-weight: 900;
+  font-size: 12px;
 }
 
 .w-100 {
@@ -334,4 +340,177 @@
   font-size: 18px;
   text-align: center;
   margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .none {
+    display: flex;
+  }
+
+  .xl-none {
+    display: none;
+  }
+
+  .header {
+    height: 17vh;
+    flex-direction: column;
+  }
+
+  .first-nav {
+    background: rgb(59, 62, 69);
+    height: 7vh;
+  }
+
+  .first-nav-ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .first-nav-list {
+    padding: 0 20px;
+  }
+
+  .first-nav-anchor {
+    color: #fafafa;
+    font-size: 14px;
+  }
+
+  .second-nav {
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .second-nav-logo {
+    color: #272a31;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 2px 27px;
+  }
+
+  .second-nav-logo-list {
+    margin-left: 10px;
+    font-weight: 900;
+  }
+
+  .second-nav-ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .second-nav-anchor {
+    color: rgb(59, 62, 69);
+    font-size: 14px;
+  }
+
+  .last {
+    border: 4px solid #ec5242;
+    padding: 10px;
+  }
+
+  .main-header,
+  .sub-header {
+    font-size: 30px;
+  }
+
+  .sub-header,
+  .paragraph {
+    max-width: 700px;
+  }
+
+  .paragraph {
+    padding: 30px;
+  }
+
+  .time {
+    font-size: 30px;
+  }
+
+  .venue {
+    font-size: 18px;
+    margin-bottom: 23px;
+  }
+
+  .program-ul,
+  .featured-ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1em;
+  }
+
+  .program-list,
+  .featured-list {
+    margin: 10px 1px;
+    height: 17em;
+    width: 191px;
+  }
+
+  .featured-list {
+    width: 320px;
+  }
+
+  .program-flex {
+    justify-content: space-between;
+    padding: 5px;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .program-info {
+    font-size: 24px;
+  }
+
+  .program-talk {
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 7px;
+  }
+
+  .featured-h3 {
+    font-size: 20px;
+  }
+
+  .featured-paragraph {
+    font-size: 15px;
+  }
+
+  .second-footer-list {
+    font-size: 16px;
+  }
+
+  .sub-header {
+    max-width: 100%;
+  }
+
+  .about-paragraph-one,
+  .about-paragraph {
+    width: 576px;
+    margin: 20px auto;
+  }
+
+  .about-section-paragraph {
+    width: 580px;
+    margin: 10px auto 30px;
+  }
+
+  .flex-img-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-container {
+    width: 40%;
+  }
 }
