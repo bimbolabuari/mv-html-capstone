@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
 }
 
@@ -13,13 +13,9 @@ a {
 
 .icon {
   font-size: 27px;
-  color: #fff;
+  color: #272a31;
   padding-left: 21px;
   align-self: center;
-}
-
-.none {
-  display: none;
 }
 
 .main-section {
@@ -107,6 +103,11 @@ a {
   color: #ec5242;
   font-weight: 700;
   font-size: 15px;
+}
+
+.footer-info {
+  font-size: 12px;
+  max-width: 380px;
 }
 
 .program-icon {
@@ -228,12 +229,17 @@ a {
   color: #fff;
 }
 
+.m-icon {
+  margin-top: 1em;
+  z-index: 0;
+}
+
 .footer {
   color: #fff;
   padding: 24px 10px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-evenly;
+  align-items: end;
 }
 
 .first-footer,
@@ -242,7 +248,7 @@ a {
 }
 
 .second-footer-list {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .about-paragraph {
@@ -266,7 +272,7 @@ a {
 
 .copyright {
   font-weight: 900;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .w-100 {
@@ -301,7 +307,7 @@ a {
 }
 
 .footer-icon {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .about-section {
@@ -336,7 +342,6 @@ a {
   background: url(./images/conference1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
   max-width: 350px;
 }
 
@@ -409,7 +414,7 @@ a {
 }
 
 .m-top {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .nav-list {
@@ -449,6 +454,10 @@ a {
   text-align: center;
 }
 
+.none {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .none {
     display: flex;
@@ -460,17 +469,14 @@ a {
 
   .first-nav {
     display: block;
-    height: 7vh;
+    height: 5vh;
+    padding: 0 6em;
   }
 
   .header {
-    height: 17vh;
+    height: 13vh;
     flex-direction: column;
     position: static;
-  }
-
-  .first-nav-list {
-    padding: 0 20px;
   }
 
   .first-nav-anchor {
@@ -478,11 +484,12 @@ a {
   }
 
   .second-nav {
-    height: 10vh;
+    height: 8vh;
     color: #fff;
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding: 0 5em;
   }
 
   .second-nav-ul li {
@@ -501,7 +508,6 @@ a {
   }
 
   .second-nav-logo-list {
-    margin-left: 10px;
     font-weight: 900;
   }
 
@@ -519,7 +525,7 @@ a {
 
   .last {
     border: 4px solid #ec5242;
-    padding: 10px;
+    padding: 5px 10px;
   }
 
   .main-header,
@@ -540,6 +546,10 @@ a {
     font-size: 30px;
   }
 
+  .main-section {
+    padding: 40px 24px 40px 120px;
+  }
+
   .venue {
     font-size: 18px;
     margin-bottom: 23px;
@@ -556,7 +566,6 @@ a {
 
   .program-list,
   .featured-list {
-    margin: 10px 1px;
     height: 17em;
     width: 191px;
   }
@@ -592,7 +601,9 @@ a {
   }
 
   .second-footer-list {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 10px;
   }
 
   .sub-header {
@@ -613,9 +624,7 @@ a {
   .flex-img-container {
     display: flex;
     justify-content: space-between;
-  }
-
-  .img-container {
-    width: 40%;
+    margin: 0 auto;
+    max-width: 720px;
   }
 }

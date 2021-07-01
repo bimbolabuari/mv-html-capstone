@@ -1,10 +1,12 @@
 const close = document.querySelector('#close');
 const hamburger = document.querySelector('#open');
 const nav = document.querySelector('#nav');
+const firstNav = document.querySelector('.first-nav');
 const featuredContainer = document.querySelector('.featured-ul');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.add('none');
+  firstNav.classList.remove('none');
   close.classList.remove('none');
   nav.classList.remove('second-nav', 'none');
   nav.classList.add('nav-list');
@@ -13,6 +15,7 @@ hamburger.addEventListener('click', () => {
 close.addEventListener('click', () => {
   nav.classList.add('none', 'section-nav');
   nav.classList.remove('nav-list');
+  firstNav.classList.add('none');
   hamburger.classList.remove('none');
   close.classList.add('none');
 });
