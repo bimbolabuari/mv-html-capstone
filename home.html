@@ -15,36 +15,37 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-      <header class="header none">
-          <nav class="first-nav">
-              <ul class="first-nav-ul">
-                  <li class="first-nav-list"><a href="#" class="first-nav-anchor"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="first-nav-list"><a href="#" class="first-nav-anchor"><i class="fa fa-twitter"></i></a></li>
-                  <li class="first-nav-list"><a href="#" class="first-nav-anchor">English</a></li>
-                  <li class="first-nav-list"><a href="#" class="first-nav-anchor">My page</a></li>
-                  <li class="first-nav-list"><a href="#" class="first-nav-anchor">Logout</a></li>
-              </ul>
-              </nav>
-          <nav class="second-nav">
-              <ul class="second-nav-logo">
-                  <li><i class="fa fa-first-order footer-icon"></i></li>
-                  <li class="second-nav-logo-list">Global Tech 2021</li>
-              </ul>
-              <ul class="second-nav-ul">
-                 <li><a href="#" class="second-nav-anchor">About</a></li> 
-                 <li><a href="#" class="second-nav-anchor">Program</a></li> 
-                 <li><a href="#" class="second-nav-anchor">Join</a></li> 
-                 <li><a href="#" class="second-nav-anchor">Sponsor</a></li> 
-                 <li><a href="#" class="second-nav-anchor">News</a></li> 
-                 <li><a href="#" class="second-nav-anchor last">Academics</a></li> 
-              </ul>
-          </nav>
-      </header>
+    <header class="header">
+        <nav class="first-nav">
+          <i class="fa fa-times icon cursor xl-none none" id="close"></i>
+          <i class="fa fa-bars icon cursor xl-none" id="open"></i>
+            <ul class="first-nav-ul">
+                <li class="first-nav-list"><a href="#" class="first-nav-anchor"><i class="fa fa-facebook-f"></i></a></li>
+                <li class="first-nav-list"><a href="#" class="first-nav-anchor"><i class="fa fa-twitter"></i></a></li>
+                <li class="first-nav-list"><a href="#" class="first-nav-anchor">English</a></li>
+                <li class="first-nav-list"><a href="#" class="first-nav-anchor">My page</a></li>
+                <li class="first-nav-list"><a href="#" class="first-nav-anchor">Logout</a></li>
+            </ul>
+            </nav>
+        <nav class="second-nav none" id="nav">
+            <ul class="second-nav-logo">
+              <li><a href="./home.html"><i class="fa fa-first-order footer-icon"></i></a></li>
+                <li class="second-nav-logo-list">Global Tech 2021</li>
+            </ul>
+            <ul class="second-nav-ul">
+               <li><a href="./about.html" class="second-nav-anchor">About</a></li> 
+               <li><a href="#" class="second-nav-anchor">Program</a></li> 
+               <li><a href="#" class="second-nav-anchor">Join</a></li> 
+               <li><a href="#" class="second-nav-anchor">Sponsor</a></li> 
+               <li><a href="#" class="second-nav-anchor">News</a></li> 
+               <li><a href="#" class="second-nav-anchor last">Academics</a></li> 
+            </ul>
+        </nav>
+    </header>
       <main>
        
           <section class="main-section">
-            <i class="fa fa-bars icon xl-none"></i>
-             <h1 class="main-header">"Hello! Technology World"</h1>
+             <h1 class="main-header m-top">"Hello! Technology World"</h1>
              <h2 class="sub-header"> Web development & design courses 2021</h2>
              <p class="paragraph">
                  A free web development and web design training with technical support, free handbook,web conference and career support from over 30 experts is taking place in october, in Nigeria
@@ -182,5 +183,6 @@
             <li class="second-footer-list">2021 Global tech Rights Reserved.</li>
         </ul>
       </footer>
+      <script src="./index.js"></script>
   </body>
   </html>
