@@ -22,37 +22,37 @@ const speakersArray = [
     name: 'Yochai Benkler',
     intro: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport1.jpg',
   },
   {
     name: 'Yochai Benkler',
     introduction: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport2.jpg',
   },
   {
     name: 'Yochai Benkler',
     introduction: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport3.jpg',
   },
   {
     name: 'Yochai Benkler',
     introduction: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport4.jpg',
   },
   {
     name: 'Yochai Benkler',
     introduction: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport1.jpg',
   },
   {
     name: 'Yochai Benkler',
     introduction: 'Berkamn Professor of Enterpreneurial Legal studies at Harvard Law school',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    image: './images/passport.png',
+    image: './images/passport2.jpg',
   },
 ];
 
